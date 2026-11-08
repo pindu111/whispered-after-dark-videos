@@ -91,8 +91,8 @@ def main(story_path, out):
     os.makedirs(work, exist_ok=True)
     os.makedirs(os.path.dirname(os.path.abspath(out)), exist_ok=True)
     outro = story.get("outro", "Follow for a new story every night.")
-    items = [(story["title"], story.get("title_scene", "house"), "title")]
-    items += [(c["text"], c.get("scene", "dark"), "body") for c in story["cards"]]
+    # cold open: the hook line plays from frame one; the title lives only in the YouTube title
+    items = [(c["text"], c.get("scene", "dark"), "body") for c in story["cards"]]
     items += [(outro, "dark", "outro")]
     voice = narrate([t for t, _, _ in items], work)
 
@@ -108,7 +108,8 @@ def main(story_path, out):
         vf = (f"scale=1296:2304,zoompan=z='1.04+0.07*on/{frames}'"
               f":x='(iw-iw/zoom)/2*(1{drift}*on/{frames})':y='(ih-ih/zoom)/2'"
               f":d={frames}:s={W}x{H}:fps={FPS},format=yuv420p,"
-              f"fade=t=in:st=0:d=0.35,fade=t=out:st={dur - 0.35:.2f}:d=0.35")
+              + ("" if i == 0 else "fade=t=in:st=0:d=0.35,")  # first frame fully visible
+              + f"fade=t=out:st={dur - 0.35:.2f}:d=0.35")
         run(["ffmpeg", "-y", "-i", png, "-vf", vf, "-frames:v", str(frames), "-c:v", "libx264",
              "-crf", "20", "-preset", "veryfast", "-pix_fmt", "yuv420p", "-r", str(FPS), tmp])
         os.replace(tmp, final)
@@ -132,7 +133,7 @@ def main(story_path, out):
     fc = ("[0]asetrate=44100*0.95,aresample=44100,atempo=1.0526,"
           "aecho=0.8:0.55:70|140:0.22|0.12,highpass=f=70,volume=1.6[v];"
           "[2]lowpass=f=400[n];[1][n]amix=inputs=2:normalize=0,tremolo=f=0.25:d=0.35,volume=0.45[bg];"
-          f"[v][bg]amix=inputs=2:normalize=0,afade=t=in:d=0.8,afade=t=out:st={total - 1.5:.2f}:d=1.5,"
+          f"[v][bg]amix=inputs=2:normalize=0,afade=t=in:d=0.05,afade=t=out:st={total - 1.5:.2f}:d=1.5,"
           "volume=5dB,alimiter=limit=0.95,pan=stereo|c0=c0|c1=c0[a]")
     run(["ffmpeg", "-y", "-i", f"{work}/voice.wav", "-f", "lavfi", "-i", drone,
          "-f", "lavfi", "-i", f"anoisesrc=c=brown:a=0.06:d={total:.3f}",

@@ -5,7 +5,7 @@ Channel: **Whispered After Dark** — short, original horror stories told in the
 ## The story
 - **Original only.** Never retell a creepypasta, film, book, Reddit post or urban legend someone else wrote. Never reuse a premise, twist or title already in `stories/` — read them all before writing.
 - 7–10 caption cards, each one sentence (max ~22 words). Total narration about 25–45 seconds.
-- Card 1 is the hook: an ordinary, specific domestic detail that is slightly wrong.
+- **Card 1 is the first thing on screen and the first thing heard — there is no title card.** It must make someone stop scrolling within one second: short (≤ 12 words), concrete, and already wrong. Good: "My dog won't stop growling at the baby monitor." Bad: "This happened to me a few years ago." Never open with setup, dates or "so...".
 - Build quietly. The last card is a short twist (≤ 8 words) that recolours everything before it.
 - First person, plain modern English, no gore, no real people or places, nothing sexual, nothing involving harm to children. Unsettling, not graphic.
 - Vary the settings week to week: home, work, school, road trips, phones, neighbours, hotels, camping, the sea, childhood memories, technology.
