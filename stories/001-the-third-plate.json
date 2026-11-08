@@ -1,0 +1,20 @@
+{
+  "title": "The Third Plate",
+  "title_scene": "house",
+  "cards": [
+    {"text": "Every night, Mum sets the table for three.", "scene": "table"},
+    {"text": "It has only ever been the two of us.", "scene": "house"},
+    {"text": "When I asked who the third plate was for, she said: \"The one who stays quiet.\"", "scene": "hallway"},
+    {"text": "Last night, I didn't set it.", "scene": "dark"},
+    {"text": "At 3am, I heard a chair scrape across the kitchen floor.", "scene": "door"},
+    {"text": "This morning, there was a note on my plate.", "scene": "note"},
+    {"text": "\"Don't forget me again.\"", "scene": "window"},
+    {"text": "It was in my handwriting.", "scene": "dark"}
+  ],
+  "outro": "Follow for a new story every night.",
+  "youtube": {
+    "title": "My Mum Always Sets a Third Plate… #shorts #scarystories",
+    "description": "Every night, Mum sets the table for three. It has only ever been the two of us.\n\nA new original scary story every night.\n\n#scarystories #horror #creepy #shorts",
+    "tags": ["scary stories", "horror", "creepy", "short horror story", "shorts"]
+  }
+}
