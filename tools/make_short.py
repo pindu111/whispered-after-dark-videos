@@ -90,16 +90,14 @@ def main(story_path, out):
     work = os.path.splitext(out)[0] + "_parts"
     os.makedirs(work, exist_ok=True)
     os.makedirs(os.path.dirname(os.path.abspath(out)), exist_ok=True)
-    outro = story.get("outro", "Follow for a new story every night.")
     # cold open: the hook line plays from frame one; the title lives only in the YouTube title
     items = [(c["text"], c.get("scene", "dark"), "body") for c in story["cards"]]
-    items += [(outro, "dark", "outro")]
     voice = narrate([t for t, _, _ in items], work)
 
     base = zlib.crc32(story["title"].encode()) % 5000  # different art per story
     parts = []
     for i, ((text, scene, kind), (_, dur)) in enumerate(zip(items, voice)):
-        dur = max(dur, 2.2)
+        dur = max(dur, 2.2) + (1.0 if i == len(items) - 1 else 0)
         png = f"{work}/s{i:02d}.png"
         caption(scenes.render(scene, base + i), text, kind, scene).save(png)
         frames = int(round(dur * FPS))
