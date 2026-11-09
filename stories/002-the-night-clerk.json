@@ -1,0 +1,21 @@
+{
+  "title": "The Night Clerk",
+  "title_scene": "hallway",
+  "cards": [
+    {"text": "Room 14 calls the front desk every night at 2:14.", "scene": "door"},
+    {"text": "Nobody has stayed in Room 14 since I started working nights.", "scene": "hallway"},
+    {"text": "The caller only whispers one question: \"Is the night clerk still there?\"", "scene": "table"},
+    {"text": "I always say yes, and the line goes dead.", "scene": "window"},
+    {"text": "Last night, the new manager offered to cover the end of my shift.", "scene": "house"},
+    {"text": "At 2:14, I was already halfway home.", "scene": "forest"},
+    {"text": "My phone lit up with the hotel's number.", "scene": "door"},
+    {"text": "The whisper said, \"Thank you for leaving the desk to me.\"", "scene": "hallway"},
+    {"text": "The hotel never hired a new manager.", "scene": "dark"}
+  ],
+  "outro": "Follow for a new story every night.",
+  "youtube": {
+    "title": "The Empty Hotel Room Calls Me Every Night… #shorts #scarystories",
+    "description": "Room 14 calls the front desk every night at 2:14. Nobody has stayed in Room 14 since I started working nights.\n\nA new original scary story every night on Whispered After Dark.\n\n#scarystories #horror #creepy #shorts",
+    "tags": ["scary stories", "horror", "creepy", "short horror story", "shorts", "whispered after dark", "hotel horror", "night shift"]
+  }
+}
