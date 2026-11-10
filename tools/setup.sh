@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Prepare a fresh workspace: Python deps + the Kokoro voice model (from GitHub releases).
 set -e
-pip install --break-system-packages -q kokoro-onnx soundfile numpy pillow
+pip install --break-system-packages -q kokoro-onnx soundfile numpy pillow scipy
 mkdir -p "${KOKORO_DIR:=$HOME/kokoro}"
 cd "$KOKORO_DIR"
 for f in kokoro-v1.0.onnx voices-v1.0.bin; do
