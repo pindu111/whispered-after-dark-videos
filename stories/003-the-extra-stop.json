@@ -1,0 +1,20 @@
+{
+  "title": "The Extra Stop",
+  "title_scene": "forest",
+  "cards": [
+    {"text": "My car's GPS keeps adding a stop I never typed in.", "scene": "forest"},
+    {"text": "I'm driving alone, but the screen says, \"Passenger requested.\"", "scene": "window"},
+    {"text": "I deleted it, and the car filled with the smell of wet leaves.", "scene": "forest"},
+    {"text": "Ten minutes later, the stop was back, and much closer.", "scene": "hallway"},
+    {"text": "Then the seatbelt warning for the back seat started blinking.", "scene": "door"},
+    {"text": "I drove to the dirt road it wanted, just to make it stop.", "scene": "forest"},
+    {"text": "The back door opened, then quietly shut, and the warning went dark.", "scene": "door"},
+    {"text": "The GPS said, \"Both passengers buckled. Heading home.\"", "scene": "dark"}
+  ],
+  "outro": "Follow for a new story every night.",
+  "youtube": {
+    "title": "My GPS Keeps Adding a Stop I Never Typed… #shorts #scarystories",
+    "description": "My car's GPS keeps adding a stop I never typed in. I'm driving alone, but the screen says, \"Passenger requested.\"\n\nA new original scary story every night on Whispered After Dark.\n\n#scarystories #horror #creepy #shorts",
+    "tags": ["scary stories", "horror", "creepy", "short horror story", "shorts", "whispered after dark", "road trip horror", "driving at night"]
+  }
+}
