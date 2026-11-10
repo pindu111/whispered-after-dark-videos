@@ -35,14 +35,23 @@ Channel: **Whispered After Dark** — short, original horror stories told in the
 `house` `hallway` `table` `window` `forest` `door` `note` `dark`
 Pick the scene that fits each line; use `dark` for the beat right before the twist or the twist itself. Never use the same scene on two cards in a row, so the picture changes on every line.
 
+## Photos (one real photo per card, from Unsplash)
+Every card gets a real photo; the drawn `scene` stays as a fallback if a photo download ever fails.
+- For each card, search Unsplash (`search_photos`, orientation `portrait`, plus `none`, content_filter `high`, per_page 5) with a short concrete query for what the line shows, e.g. "car dashboard night", "empty hotel corridor", "foggy forest path". Keep queries to 2–4 words.
+- Pick the result that best matches the line *and* is dark, moody and uncluttered (night, fog, empty rooms, shadows). Skip bright daytime, smiling people, recognisable landmarks, brand logos, text, and anything with children.
+- Faces are fine only as shadowy silhouettes. Never use a clear, identifiable face.
+- Don't use the same photo twice in one video or a photo already used in any earlier story (check the `photo_id`s in `stories/`).
+- For each chosen photo call `download_asset` with its id (Unsplash requires this). Store its returned `url` as `photo`, the id as `photo_id`, and the photographer's `user.name` as `photo_credit` on the card.
+- The video maker darkens and colour-grades every photo automatically, so pick for subject and composition, not exposure.
+
 ## Story file: `stories/NNN-slug.json`
 ```json
 {
   "title": "Two to Four Words",
-  "cards": [{"text": "...", "scene": "table"}],
+  "cards": [{"text": "...", "scene": "table", "photo": "https://images.unsplash.com/photo-...", "photo_id": "abc123", "photo_credit": "Photographer Name"}],
   "youtube": {
     "title": "Curiosity-gap title under 60 chars… #shorts #scarystories",
-    "description": "The hook line and card 2 as a teaser.\n\nA new original scary story every night on Whispered After Dark.\n\n#scarystories #horror #creepy #shorts",
+    "description": "The hook line and card 2 as a teaser.\n\nA new original scary story every night on Whispered After Dark.\n\nPhotos: Name One, Name Two, Name Three on Unsplash\n\n#scarystories #horror #creepy #shorts",
     "tags": ["scary stories", "horror", "creepy", "short horror story", "shorts", "whispered after dark"]
   }
 }

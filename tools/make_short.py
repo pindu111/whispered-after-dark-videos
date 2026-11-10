@@ -10,6 +10,7 @@ import numpy as np
 import soundfile as sf
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import scenes
+import photos
 
 W, H, FPS = 1080, 1920, 30
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -101,7 +102,12 @@ def main(story_path, out):
     for i, ((text, scene, kind), (_, dur)) in enumerate(zip(items, voice)):
         dur = max(dur, 2.2) + (1.0 if i == len(items) - 1 else 0)
         png = f"{work}/s{i:02d}.png"
-        caption(scenes.render(scene, base + i), text, kind, scene).save(png)
+        photo_url = story["cards"][i].get("photo")
+        bg = photos.render(photo_url, f"{work}/photo{i:02d}.jpg", base + i) if photo_url else None
+        used_photo = bg is not None
+        if not used_photo:  # no photo, or it failed: fall back to the drawn scene
+            bg = scenes.render(scene, base + i)
+        caption(bg, text, kind, "" if used_photo else scene).save(png)
         frames = int(round(dur * FPS))
         tmp, final = f"{work}/s{i:02d}.tmp.mp4", f"{work}/s{i:02d}.mp4"
         drift = "+0.06" if i % 2 else "-0.06"  # alternate slow pan direction
