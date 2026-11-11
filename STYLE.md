@@ -64,3 +64,19 @@ Every card gets a real photo; the drawn `scene` stays as a fallback if a photo d
 }
 ```
 NNN is the next number after the highest in `stories/`. Add 1–2 extra tags that fit the story's setting (e.g. "hotel horror").
+
+## Weekly long video (every Sunday)
+One horizontal 16:9 video: intro → the week's 7 Shorts stories (each with a title card) → **one exclusive story** → outro. Built by `tools/make_weekly.py` from `weekly/YYYY-MM-DD/plan.json`.
+
+### The exclusive story (`weekly/YYYY-MM-DD/exclusive.json`)
+Same file format and the same hard rules, line-craft, photo and originality rules as the Shorts, but longer and built differently:
+- **28–36 cards, about 3–4 minutes of narration.** It only appears in the long video, never as a Short.
+- Card 1 is still a hook (≤ 10 words), but the story then has room to breathe: set up a specific, ordinary life (who, where, one detail we'll remember).
+- **Three escalations**, roughly at cards 8, 16 and 24, each a clear "it got worse" moment. Between them, small details that seem harmless and pay off later.
+- One false relief around two-thirds through (it seems explained or over, then it isn't).
+- The final card is the twist (≤ 10 words), set up by at least two earlier details.
+- Use every scene/photo type across the story; never the same photo twice. Never reuse a photo_id from any Short.
+- No `youtube` block is needed. Pick a `title` of 2–4 words.
+
+### Long video title
+Format: a curiosity hook + the number, under 70 characters, no "#shorts". e.g. "7 Scary Stories That Will Ruin Your Sleep (+1 Exclusive)", "Don't Watch These Alone | 8 Original Horror Stories". Vary it every week.

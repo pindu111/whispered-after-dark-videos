@@ -5,16 +5,18 @@ import numpy as np
 from PIL import Image, ImageEnhance, ImageFilter
 
 W, H = 1080, 1920
+FETCH_W = 1400  # download width; long-form crops a wide strip so it asks for more
 
 
 def fetch(url, dest):
     """Download once; returns the local path or None on any failure."""
+    dest = dest.replace(".jpg", f"_{FETCH_W}.jpg")
     if os.path.exists(dest) and os.path.getsize(dest) > 10_000:
         return dest
     from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
     parts = urlsplit(url)
     q = dict(parse_qsl(parts.query))
-    q.update({"w": "1400", "fm": "jpg", "q": "85"})  # 1400px wide is plenty for 1080 output
+    q.update({"w": str(FETCH_W), "fm": "jpg", "q": "85"})
     url = urlunsplit(parts._replace(query=urlencode(q)))
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "whispered-after-dark"})

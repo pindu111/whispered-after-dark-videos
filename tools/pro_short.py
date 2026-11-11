@@ -21,6 +21,25 @@ sys.path.insert(0, HERE)
 import scenes, photos  # noqa: E402
 
 W, H, FPS, SR = 1080, 1920, 30, 44100
+UPSCALE = 2.0                         # zoompan works on an upscaled frame so slow moves stay smooth
+HOOK_POS, CAP_POS = (540, 880), (540, 1130)
+HOOK_FS, CAP_FS = 172, 158
+
+
+def configure(landscape=False):
+    """Switch every size-dependent setting between vertical Shorts and 16:9 long-form."""
+    global W, H, UPSCALE, HOOK_POS, CAP_POS, HOOK_FS, CAP_FS
+    if landscape:
+        W, H, UPSCALE = 1920, 1080, 1.5
+        HOOK_POS, CAP_POS = (960, 520), (960, 800)
+        HOOK_FS, CAP_FS = 124, 112
+        photos.FETCH_W = 2400
+    else:
+        W, H, UPSCALE = 1080, 1920, 2.0
+        HOOK_POS, CAP_POS = (540, 880), (540, 1130)
+        HOOK_FS, CAP_FS = 172, 158
+        photos.FETCH_W = 1400
+    photos.W, photos.H = W, H
 VOICE, SPEED = "am_michael", 0.95
 T = 0.25            # transition length
 GAP = 0.18          # air after each line
@@ -117,8 +136,8 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Cap,Anton,158,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,0,0,0,100,100,1,0,1,9,5,5,70,70,0,1
-Style: Hook,Anton,172,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,0,0,0,100,100,1,0,1,10,6,5,80,80,0,1
+Style: Cap,Anton,{CAP_FS},&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,0,0,0,100,100,1,0,1,9,5,5,70,70,0,1
+Style: Hook,Anton,{HOOK_FS},&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,0,0,0,100,100,1,0,1,10,6,5,80,80,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -134,7 +153,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
         b = hook[wi + 1][1] if wi + 1 < len(hook) else hook_end
         txt = " ".join((RED if j == wi else WHITE) + clean(w2) for j, (w2, _, _) in enumerate(hook))
         anim = ""  # full size on frame one
-        ev.append(f"Dialogue: 0,{ass_time(a)},{ass_time(b)},Hook,,0,0,0,,{{\\pos(540,880)}}{anim}{txt}")
+        ev.append(f"Dialogue: 0,{ass_time(a)},{ass_time(b)},Hook,,0,0,0,,{{\\pos({HOOK_POS[0]},{HOOK_POS[1]})}}{anim}{txt}")
     # --- every other line: 1-3 word groups that pop in, never overlapping
     groups = []
     for ci, words in enumerate(cards_words[1:], 1):
@@ -148,7 +167,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
             end = ch[wi + 1][1] if wi + 1 < len(ch) else c_end
             parts = [(RED if wj == wi else WHITE) + clean(w2) for wj, (w2, _, _) in enumerate(ch) if wj <= wi]
             anim = POP if wi == 0 else ""
-            ev.append(f"Dialogue: 0,{ass_time(s)},{ass_time(end)},Cap,,0,0,0,,{{\\pos(540,1130)}}{anim}{' '.join(parts)}")
+            ev.append(f"Dialogue: 0,{ass_time(s)},{ass_time(end)},Cap,,0,0,0,,{{\\pos({CAP_POS[0]},{CAP_POS[1]})}}{anim}{' '.join(parts)}")
     open(path, "w").write(head + "\n".join(ev) + "\n")
 
 
@@ -171,10 +190,10 @@ def shot(i, n, bg_png, length, work):
         z, x, y = f"1.02+0.16*on/{frames}", "(iw-iw/zoom)/2", "(ih-ih/zoom)*0.45"
     else:
         z, x, y = (m.format(N=frames) for m in MOVES[(i * 3 + 1) % len(MOVES)])
-    vf = (f"scale=2160:3840:flags=lanczos,zoompan=z='{z}':x='{x}':y='{y}':d={frames}:s={W}x{H}:fps={FPS}")
+    vf = (f"scale={int(W*UPSCALE)}:{int(H*UPSCALE)}:flags=lanczos,zoompan=z='{z}':x='{x}':y='{y}':d={frames}:s={W}x{H}:fps={FPS}")
     if i == n - 1:  # shake that dies away + chromatic split
-        vf += (",crop=1040:1850:'20+18*exp(-2.2*t)*sin(t*53)':'35+18*exp(-2.2*t)*sin(t*67)',"
-               "scale=1080:1920,rgbashift=rh=5:bh=-5:rv=1:bv=-1")
+        vf += (f",crop={W-40}:{H-70}:'20+18*exp(-2.2*t)*sin(t*53)':'35+18*exp(-2.2*t)*sin(t*67)',"
+               f"scale={W}:{H},rgbashift=rh=5:bh=-5:rv=1:bv=-1")
     vf += ",format=yuv420p"
     out = f"{work}/shot{i:02d}.mp4"
     run(["ffmpeg", "-y", "-loop", "1", "-framerate", str(FPS), "-i", bg_png, "-vf", vf, "-frames:v", str(frames),
@@ -319,8 +338,9 @@ def build_audio(voice_clips, starts, total, twist_start, seed, path):
 
 
 # ------------------------------------------------------------------ main
-def main(story_path, out):
-    story = json.load(open(story_path))
+def main(story_path, out, landscape=False, bar=True, end_fade=False, vbitrate=None):
+    configure(landscape)
+    story = json.load(open(story_path)) if isinstance(story_path, str) else story_path
     cards = story["cards"]
     n = len(cards)
     work = os.path.splitext(out)[0] + "_pro"
@@ -345,10 +365,12 @@ def main(story_path, out):
     # backgrounds
     pngs = []
     for i, c in enumerate(cards):
-        kw = {"target": 92, "contrast": 1.35} if i == 0 else {}
+        kw = {"target": 92, "contrast": 1.35} if i == 0 and not story.get("plain_hook") else {}
         bg = photos.render(c["photo"], f"{work}/photo{i:02d}.jpg", seed + i, **kw) if c.get("photo") else None
         if bg is None:
             bg = scenes.render(c.get("scene", "dark"), seed + i)
+            if landscape:
+                bg = photos.cover(bg)
         p = f"{work}/bg{i:02d}.png"
         bg.save(p)
         pngs.append(p)
@@ -385,17 +407,25 @@ def main(story_path, out):
               f"eq=brightness='0.012*sin(2*PI*t*6.3)*sin(2*PI*t*2.1)':eval=frame,"
               f"vignette=PI/5,{flashes},"
               f"ass='{ass}':fontsdir='{FONTS}'[cap]")
-    fc.append(f"color=c=0xE02828:s={W}x8:r={FPS}[bar]")
-    fc.append(f"[cap][bar]overlay=x='-w+w*t/{total:.3f}':y=0:shortest=1,format=yuv420p[v]")
+    if bar:
+        fc.append(f"color=c=0xE02828:s={W}x8:r={FPS}[bar]")
+        fc.append(f"[cap][bar]overlay=x='-w+w*t/{total:.3f}':y=0:shortest=1,format=yuv420p[v0]")
+    else:
+        fc.append("[cap]format=yuv420p[v0]")
+    fc.append(f"[v0]fade=t=out:st={total - 0.6:.3f}:d=0.6[v]" if end_fade else "[v0]null[v]")
+    venc = (["-b:v", vbitrate, "-maxrate", str(int(vbitrate.rstrip('k')) * 3 // 2) + "k",
+             "-bufsize", str(int(vbitrate.rstrip('k')) * 3) + "k"] if vbitrate else ["-crf", "18"])
     tmp = out + ".tmp.mp4"
     run(["ffmpeg", "-y", *inputs, "-i", mix, "-filter_complex", ";".join(fc),
          "-map", "[v]", "-map", f"{n}:a", "-t", f"{total:.3f}",
-         "-c:v", "libx264", "-crf", "18", "-preset", "veryfast", "-pix_fmt", "yuv420p", "-r", str(FPS),
-         "-af", "loudnorm=I=-14:TP=-1.5:LRA=9", "-ar", "48000", "-c:a", "aac", "-b:a", "192k",
+         "-c:v", "libx264", *venc, "-preset", "veryfast", "-pix_fmt", "yuv420p", "-r", str(FPS),
+         "-af", "loudnorm=I=-14:TP=-1.5:LRA=9", "-ar", "48000", "-ac", "2", "-c:a", "aac", "-b:a", "160k",
          "-movflags", "+faststart", tmp])
     os.replace(tmp, out)
     print(f"{out}  {total:.1f}s")
+    return total
 
 
 if __name__ == "__main__":
-    main(sys.argv[1], sys.argv[2])
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    main(args[0], args[1], landscape="--landscape" in sys.argv)
