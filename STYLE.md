@@ -10,7 +10,13 @@ Channel: **Whispered After Dark** — short, original horror stories told in the
 - Vary the settings: home, work, night shifts, school, road trips, phones, neighbours, hotels, camping, the sea, childhood memories, technology. Don't use the same setting as either of the last 3 stories.
 
 ## Structure (7–9 cards, 25–35 seconds of narration)
-1. **Card 1, the hook (≤ 12 words).** It's the first thing seen and heard; there is no title card. It must be concrete and *already wrong*, and it must raise a question the viewer needs answered. Good: "My dog won't stop growling at the baby monitor." Bad: "This happened to me a few years ago." Never open with setup, dates, names or "so...".
+1. **Card 1, the hook (≤ 8 words, readable in one second).** It's the first thing seen and heard; there is no title card. It must be concrete and *already wrong*, and raise a question the viewer needs answered. Never open with setup, dates, names or "so...". Bad: "Wet footprints walk out of the sea and stop at my door." (11 words, too slow). Good: "Footprints come out of the sea. Mine."
+   **Rotate the hook type** so we learn which keeps viewers. Use the type that has been used least recently (check `hook_type` in earlier stories) and record it as `"hook_type"` in the story file:
+   - `warning`: talks to the viewer. "Don't answer if your phone rings at 3:14."
+   - `rule`: a creepy rule. "Never let the night nurse see you awake."
+   - `confession`: something the narrator did. "I locked my sister out. She's still knocking."
+   - `impossible`: a plain impossible fact. "My reflection blinked first."
+   - `question`: a direct question. "Have you ever counted your stairs at night?"
 2. **Card 2 makes the hook worse,** usually by adding the one fact that makes it impossible ("It has only ever been the two of us."). By the end of card 2 the viewer must know the premise.
 3. **Middle cards escalate.** Each card is scarier than the one before (odd → unsettling → wrong → terrifying). Every card must either raise the stakes or open a new question. If a card only explains or describes, cut it.
 4. **Second-to-last card is the quiet beat:** a pause or discovery that sets up the twist ("This morning, there was a note on my plate.").
@@ -48,6 +54,7 @@ Every card gets a real photo; the drawn `scene` stays as a fallback if a photo d
 ```json
 {
   "title": "Two to Four Words",
+  "hook_type": "warning",
   "cards": [{"text": "...", "scene": "table", "photo": "https://images.unsplash.com/photo-...", "photo_id": "abc123", "photo_credit": "Photographer Name"}],
   "youtube": {
     "title": "Curiosity-gap title under 60 chars… #shorts #scarystories",

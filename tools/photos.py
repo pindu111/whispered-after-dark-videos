@@ -35,15 +35,15 @@ def cover(im):
     return im.crop((x, y, x + W, y + H))
 
 
-def grade(im, seed):
+def grade(im, seed, target=68, contrast=1.15):
     """Cold, desaturated, crushed blacks, vignette and grain, so every photo matches the channel look."""
     im = cover(im.convert("RGB"))
     im = ImageEnhance.Color(im).enhance(0.5)
-    im = ImageEnhance.Contrast(im).enhance(1.15)
+    im = ImageEnhance.Contrast(im).enhance(contrast)
     a = np.asarray(im).astype(float)
     # bring every photo to the same moody exposure: dark photos are lifted, bright ones pulled down
     mean = a.mean() + 1e-6
-    a = a * np.clip(68 / mean, 0.35, 3.0)
+    a = a * np.clip(target / mean, 0.35, 3.2)
     a = a * np.array([0.92, 0.97, 1.08])  # cold tint
     a = np.clip((a - 6) * 1.04, 0, 255)  # slightly crushed blacks
     y, x = np.mgrid[0:H, 0:W]
@@ -54,6 +54,6 @@ def grade(im, seed):
     return im.filter(ImageFilter.GaussianBlur(0.4))
 
 
-def render(url, dest, seed):
+def render(url, dest, seed, **kw):
     p = fetch(url, dest)
-    return grade(Image.open(p), seed) if p else None
+    return grade(Image.open(p), seed, **kw) if p else None

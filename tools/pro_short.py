@@ -118,7 +118,7 @@ ScaledBorderAndShadow: yes
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Cap,Anton,158,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,0,0,0,100,100,1,0,1,9,5,5,70,70,0,1
-Style: Hook,Anton,150,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,0,0,0,100,100,1,0,1,10,6,5,80,80,0,1
+Style: Hook,Anton,172,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,0,0,0,100,100,1,0,1,10,6,5,80,80,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -133,7 +133,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
         a = 0.0 if wi == 0 else s
         b = hook[wi + 1][1] if wi + 1 < len(hook) else hook_end
         txt = " ".join((RED if j == wi else WHITE) + clean(w2) for j, (w2, _, _) in enumerate(hook))
-        anim = POP if wi == 0 else ""
+        anim = ""  # full size on frame one
         ev.append(f"Dialogue: 0,{ass_time(a)},{ass_time(b)},Hook,,0,0,0,,{{\\pos(540,880)}}{anim}{txt}")
     # --- every other line: 1-3 word groups that pop in, never overlapping
     groups = []
@@ -345,7 +345,8 @@ def main(story_path, out):
     # backgrounds
     pngs = []
     for i, c in enumerate(cards):
-        bg = photos.render(c["photo"], f"{work}/photo{i:02d}.jpg", seed + i) if c.get("photo") else None
+        kw = {"target": 92, "contrast": 1.35} if i == 0 else {}
+        bg = photos.render(c["photo"], f"{work}/photo{i:02d}.jpg", seed + i, **kw) if c.get("photo") else None
         if bg is None:
             bg = scenes.render(c.get("scene", "dark"), seed + i)
         p = f"{work}/bg{i:02d}.png"
