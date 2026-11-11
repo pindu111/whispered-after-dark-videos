@@ -1,2 +1,6 @@
+*.part.mp4
+*.tmp.mp4
 *_parts/
+*_pro/
 __pycache__/
+weekly/*/pieces/
