@@ -1,0 +1,22 @@
+{
+  "title": "The Tent Voice",
+  "title_scene": "forest",
+  "hook_type": "warning",
+  "cards": [
+    {"text": "Don't unzip your tent for your sister's voice.", "scene": "door", "photo": "https://images.unsplash.com/photo-1470246973918-29a93221c455?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "63Znf38gnXk", "photo_credit": "Denys Nevozhai"},
+    {"text": "I'm camping alone, an hour's hike from my car.", "scene": "forest", "photo": "https://images.unsplash.com/photo-1629098527301-f37821cab7b3?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "davQ3mwKI7I", "photo_credit": "sentidos humanos"},
+    {"text": "At 2am, she called my name from right outside the zip.", "scene": "door", "photo": "https://images.unsplash.com/photo-1641700409025-015f1eb02a68?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "ob3_kaKrG18", "photo_credit": "Ishan Shah"},
+    {"text": "She's home in the city, and she texted me goodnight at ten.", "scene": "house", "photo": "https://images.unsplash.com/photo-1600856209923-34372e319a5d?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "sgNc8aY6Z7E", "photo_credit": "Akshar Dave🌻"},
+    {"text": "Then she whispered, \"It's cold out here. Let me in.\"", "scene": "forest", "photo": "https://images.unsplash.com/photo-1707755939969-e9c1da71c5bb?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "lkVKA9VpQ1o", "photo_credit": "Artem Balashevsky"},
+    {"text": "A hand pressed into the tent wall, right where my face was.", "scene": "hallway", "photo": "https://images.unsplash.com/photo-1563201193-fbcdda379d2e?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "uxZtYwHxLpQ", "photo_credit": "Hayley Murray"},
+    {"text": "I stayed silent until dawn, and the hand slowly slid away.", "scene": "forest", "photo": "https://images.unsplash.com/photo-1729013315108-1ee4f528f84e?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "9AkciIbQPxw", "photo_credit": "Stefan Cosma"},
+    {"text": "At sunrise, my phone buzzed with a text from her.", "scene": "note", "photo": "https://images.unsplash.com/photo-1781971587420-eb761007686a?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "uTeNc5Pn6Dk", "photo_credit": "Vincent Y @USA"},
+    {"text": "\"Why were you outside my window all night?\"", "scene": "dark", "photo": "https://images.unsplash.com/photo-1560250113-336dc9655b6e?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "l4P0Q6AL0I4", "photo_credit": "Wolf Zimmermann"}
+  ],
+  "outro": "Follow for a new story every night.",
+  "youtube": {
+    "title": "My Sister Called My Name Outside My Tent… #shorts #scarystories",
+    "description": "Don't unzip your tent for your sister's voice. I'm camping alone, an hour's hike from my car.\n\nA new original scary story every night on Whispered After Dark.\n\nPhotos: Denys Nevozhai, sentidos humanos, Ishan Shah, Akshar Dave🌻, Artem Balashevsky, Hayley Murray, Stefan Cosma, Vincent Y @USA, Wolf Zimmermann on Unsplash\n\n#scarystories #horror #creepy #shorts",
+    "tags": ["scary stories", "horror", "creepy", "short horror story", "shorts", "whispered after dark", "camping horror", "forest horror"]
+  }
+}
