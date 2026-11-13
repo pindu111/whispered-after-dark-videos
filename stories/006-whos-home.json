@@ -1,0 +1,21 @@
+{
+  "title": "Who's Home",
+  "title_scene": "house",
+  "hook_type": "rule",
+  "cards": [
+    {"text": "Never ask your smart speaker who's home.", "scene": "table", "photo": "https://images.unsplash.com/photo-1640826808046-6d4d4faa30c8?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "eqKBsh9qgrQ", "photo_credit": "Michael Soledad"},
+    {"text": "I live alone, and every night it answers, \"Two people.\"", "scene": "house", "photo": "https://images.unsplash.com/photo-1623601718119-1e2db201fa41?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "fNdyMbius3M", "photo_credit": "Aman Upadhyay"},
+    {"text": "I reset it twice. Now it adds, \"One is under the bed.\"", "scene": "hallway", "photo": "https://images.unsplash.com/photo-1695893155282-4f71c946da5a?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "ettbAfnFotY", "photo_credit": "Satyam Pathak"},
+    {"text": "I didn't look. I slept on the couch, facing the bedroom door.", "scene": "window", "photo": "https://images.unsplash.com/photo-1674501679769-a56d5450df58?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "eG21mf2u3f4", "photo_credit": "Ömer Gülcü"},
+    {"text": "At 3am, the bed creaked, like someone climbing out from under it.", "scene": "hallway", "photo": "https://images.unsplash.com/photo-1592693919233-80e4426a2717?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "EjwzO4im1cg", "photo_credit": "Zane Lee"},
+    {"text": "Then, from the bedroom, my own voice asked, \"Who's home?\"", "scene": "door", "photo": "https://images.unsplash.com/photo-1623859139479-6a2defc2308f?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "xhc2dDQ2Elc", "photo_credit": "Karl Edwards"},
+    {"text": "On the shelf beside me, the speaker's blue ring lit up.", "scene": "table", "photo": "https://images.unsplash.com/photo-1616072968375-ac0e283f080d?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "ckiewMDtEGA", "photo_credit": "Daniel Olah"},
+    {"text": "It answered, \"Just you now.\"", "scene": "dark", "photo": "https://images.unsplash.com/photo-1678251543028-04f1ec670c6b?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "Co4cGf93yT0", "photo_credit": "Alexander Kaufmann"}
+  ],
+  "outro": "Follow for a new story every night.",
+  "youtube": {
+    "title": "My Smart Speaker Says Two People Live Here… #shorts #scarystories",
+    "description": "Never ask your smart speaker who's home. I live alone, and every night it answers, \"Two people.\"\n\nA new original scary story every night on Whispered After Dark.\n\nPhotos: Michael Soledad, Aman Upadhyay, Satyam Pathak, Ömer Gülcü, Zane Lee, Karl Edwards, Daniel Olah, Alexander Kaufmann on Unsplash\n\n#scarystories #horror #creepy #shorts",
+    "tags": ["scary stories", "horror", "creepy", "short horror story", "shorts", "whispered after dark", "smart home horror", "living alone"]
+  }
+}
