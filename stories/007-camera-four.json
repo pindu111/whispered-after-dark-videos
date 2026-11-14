@@ -1,0 +1,78 @@
+{
+  "title": "Camera Four",
+  "title_scene": "window",
+  "hook_type": "impossible",
+  "cards": [
+    {
+      "text": "Camera four shows me asleep at my desk.",
+      "scene": "window",
+      "photo": "https://images.unsplash.com/photo-1537158345907-c4fb34477bd6?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "yInaaXXUu58",
+      "photo_credit": "Lucas Mordzin"
+    },
+    {
+      "text": "I'm the only guard on tonight, and I'm wide awake, watching it.",
+      "scene": "house",
+      "photo": "https://images.unsplash.com/photo-1767457511521-763f9545b6c0?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "Ng_6ApYOHqo",
+      "photo_credit": "Amirhassan Emami"
+    },
+    {
+      "text": "On the screen, the lift opens, and someone walks toward my desk.",
+      "scene": "hallway",
+      "photo": "https://images.unsplash.com/photo-1754914957261-0d011025c93e?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "44KvQRZfhbQ",
+      "photo_credit": "Rasmus"
+    },
+    {
+      "text": "I spun around. The lobby behind me was empty and silent.",
+      "scene": "door",
+      "photo": "https://images.unsplash.com/photo-1761058816717-ab349a252d1b?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "e8xSjQTk9bw",
+      "photo_credit": "Yaqing Wei"
+    },
+    {
+      "text": "On camera four, the figure leaned down to the sleeping me's ear.",
+      "scene": "table",
+      "photo": "https://images.unsplash.com/photo-1509396591411-549811e332fa?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "6SFfFpHmVjI",
+      "photo_credit": "Rene Böhmer"
+    },
+    {
+      "text": "My own ear went cold, and a breath whispered, \"Keep sleeping.\"",
+      "scene": "hallway",
+      "photo": "https://images.unsplash.com/photo-1764532189911-7e4dd8225f8a?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "aweJfmRA62k",
+      "photo_credit": "Luyi He"
+    },
+    {
+      "text": "Then the me on the screen opened its eyes and looked straight up.",
+      "scene": "window",
+      "photo": "https://images.unsplash.com/photo-1621177555452-bedbe4c28879?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "1HcK5xQoUKQ",
+      "photo_credit": "Emilio Garcia"
+    },
+    {
+      "text": "I woke up on camera four.",
+      "scene": "dark",
+      "photo": "https://images.unsplash.com/photo-1786932003317-a3802b924811?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "59FY_W5GN_0",
+      "photo_credit": "Sebastian Schuster"
+    }
+  ],
+  "outro": "Follow for a new story every night.",
+  "youtube": {
+    "title": "The Security Camera Shows Me Asleep… #shorts #scarystories",
+    "description": "Camera four shows me asleep at my desk. I'm the only guard on tonight, and I'm wide awake, watching it.\n\nA new original scary story every night on Whispered After Dark.\n\nPhotos: Lucas Mordzin, Amirhassan Emami, Rasmus, Yaqing Wei, Rene Böhmer, Luyi He, Emilio Garcia, Sebastian Schuster on Unsplash\n\n#scarystories #horror #creepy #shorts",
+    "tags": [
+      "scary stories",
+      "horror",
+      "creepy",
+      "short horror story",
+      "shorts",
+      "whispered after dark",
+      "night shift horror",
+      "security guard story"
+    ]
+  }
+}
