@@ -1,0 +1,14 @@
+{
+  "title": "7 Scary Stories to Hear in the Dark (+1 Exclusive)",
+  "teaser": "A mum who sets a plate for someone who isn't there, a GPS that picks up passengers, and a lost property office where everything coming in belongs to the clerk.",
+  "stories": [
+    "stories/001-the-third-plate.json",
+    "stories/002-the-night-clerk.json",
+    "stories/003-the-extra-stop.json",
+    "stories/004-the-tide-prints.json",
+    "stories/005-the-tent-voice.json",
+    "stories/006-whos-home.json",
+    "stories/007-camera-four.json"
+  ],
+  "exclusive": "weekly/2026-11-15/exclusive.json"
+}
