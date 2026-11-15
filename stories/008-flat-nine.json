@@ -1,0 +1,21 @@
+{
+  "title": "Flat Nine",
+  "title_scene": "door",
+  "hook_type": "confession",
+  "cards": [
+    {"text": "I let them in. There's no flat nine.", "scene": "door", "photo": "https://images.unsplash.com/photo-1675583107791-f6a52f71f88e?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "GbRjlCSJkqY", "photo_credit": "Chelaxy Designs"},
+    {"text": "My building has only eight flats. Mine is eight, right under the roof.", "scene": "house", "photo": "https://images.unsplash.com/photo-1788008391633-f8c98f5d2225?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "_ElhRrxZNVQ", "photo_credit": "Timur Seyfelmlyukov"},
+    {"text": "Every night at 1:10, my intercom crackles and someone whispers, \"Nine, please.\"", "scene": "table", "photo": "https://images.unsplash.com/photo-1602343457765-812c355ea50d?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "UNRgsp38OIo", "photo_credit": "Nguyen Minh"},
+    {"text": "I press the button, and footsteps climb past my door, up to the roof.", "scene": "hallway", "photo": "https://images.unsplash.com/photo-1560563609-3b4b1f5c2122?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "4dA7DiHPrp4", "photo_credit": "MAK"},
+    {"text": "The roof door has been padlocked for years. Nobody ever comes back down.", "scene": "door", "photo": "https://images.unsplash.com/photo-1508345228704-935cc84bf5e2?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "bqGBbLq_yfc", "photo_credit": "John Salvino"},
+    {"text": "Now I hear them pacing on the ceiling above my bed. Dozens of them.", "scene": "house", "photo": "https://images.unsplash.com/photo-1765320079642-d3433924e4d9?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "kuXSquJzzaU", "photo_credit": "Dustin Bowdige"},
+    {"text": "Tonight, the intercom crackled at 1:10. The call came from the roof.", "scene": "window", "photo": "https://images.unsplash.com/photo-1632529740361-dde6e4c7f030?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "8_UHAdb7yUA", "photo_credit": "Jezael Melgoza"},
+    {"text": "The whisper said, \"Eight, please.\"", "scene": "dark", "photo": "https://images.unsplash.com/photo-1608538770719-46a107dfc4ec?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "64xuU5SvR0s", "photo_credit": "wu yi"}
+  ],
+  "outro": "Follow for a new story every night.",
+  "youtube": {
+    "title": "Strangers Keep Buzzing for a Flat That Isn't There… #shorts #scarystories",
+    "description": "I let them in. There's no flat nine. My building has only eight flats. Mine is eight, right under the roof.\n\nA new original scary story every night on Whispered After Dark.\n\nPhotos: Chelaxy Designs, Timur Seyfelmlyukov, Nguyen Minh, MAK, John Salvino, Dustin Bowdige, Jezael Melgoza, wu yi on Unsplash\n\n#scarystories #horror #creepy #shorts",
+    "tags": ["scary stories", "horror", "creepy", "short horror story", "shorts", "whispered after dark", "apartment horror", "neighbours horror"]
+  }
+}
