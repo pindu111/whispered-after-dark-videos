@@ -1,0 +1,85 @@
+{
+  "title": "The Last Train",
+  "title_scene": "window",
+  "hook_type": "question",
+  "cards": [
+    {
+      "text": "Have you ever counted passengers on the last train?",
+      "scene": "door",
+      "photo": "https://images.unsplash.com/photo-1707304261616-8c7b57936de4?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "9Kv3UQqw-QI",
+      "photo_credit": "PTRCWRNR"
+    },
+    {
+      "text": "Seven of us got on. Now there are five, and the doors never opened.",
+      "scene": "hallway",
+      "photo": "https://images.unsplash.com/photo-1764289556108-6e69b300da9e?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "-8mi8KcWQug",
+      "photo_credit": "Ruth Bourke"
+    },
+    {
+      "text": "Every time we enter a tunnel, the lights flicker, and another seat is empty.",
+      "scene": "window",
+      "photo": "https://images.unsplash.com/photo-1783305002181-a2eae6829931?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "AmHldGcxefw",
+      "photo_credit": "Thilina Alagiyawanna"
+    },
+    {
+      "text": "The others won't look at me. They just stare at the black window.",
+      "scene": "hallway",
+      "photo": "https://images.unsplash.com/photo-1662028488107-0d75cbe5fdb1?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "jBFdMk4Q0II",
+      "photo_credit": "Árpád Czapp"
+    },
+    {
+      "text": "But in the glass, all seven of our reflections are still sitting there.",
+      "scene": "window",
+      "photo": "https://images.unsplash.com/photo-1672687652124-9d2a6a9e162a?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "5IrcjGm2v6s",
+      "photo_credit": "Austris Augusts"
+    },
+    {
+      "text": "Next tunnel, the woman opposite me vanished. Her coffee was still steaming.",
+      "scene": "table",
+      "photo": "https://images.unsplash.com/photo-1564520599940-c06900b727f7?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "QAskBOimPwM",
+      "photo_credit": "Ardalan Hamedani"
+    },
+    {
+      "text": "The last man left leaned close and whispered, \"Stop counting. It notices.\"",
+      "scene": "door",
+      "photo": "https://images.unsplash.com/photo-1780053782364-606df0f41b56?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "Dpx-p3uAAHE",
+      "photo_credit": "Tim D"
+    },
+    {
+      "text": "The lights flickered back on, and I was alone in the carriage.",
+      "scene": "house",
+      "photo": "https://images.unsplash.com/photo-1717471061016-cf12aa7461d2?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "2FBLzkkbASU",
+      "photo_credit": "Chalo Gallardo"
+    },
+    {
+      "text": "The window showed all of them. Except me.",
+      "scene": "dark",
+      "photo": "https://images.unsplash.com/photo-1609272300331-a288ba4411b6?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "-hK7fn3sAqQ",
+      "photo_credit": "Zoe"
+    }
+  ],
+  "outro": "Follow for a new story every night.",
+  "youtube": {
+    "title": "Passengers Keep Vanishing on My Last Train Home… #shorts #scarystories",
+    "description": "Have you ever counted passengers on the last train? Seven of us got on. Now there are five, and the doors never opened.\n\nA new original scary story every night on Whispered After Dark.\n\nPhotos: PTRCWRNR, Ruth Bourke, Thilina Alagiyawanna, Árpád Czapp, Austris Augusts, Ardalan Hamedani, Tim D, Chalo Gallardo, Zoe on Unsplash\n\n#scarystories #horror #creepy #shorts",
+    "tags": [
+      "scary stories",
+      "horror",
+      "creepy",
+      "short horror story",
+      "shorts",
+      "whispered after dark",
+      "train horror",
+      "last train home"
+    ]
+  }
+}
