@@ -1,0 +1,78 @@
+{
+  "title": "The Practice Calls",
+  "title_scene": "door",
+  "hook_type": "warning",
+  "cards": [
+    {
+      "text": "Don't listen to voicemails from your own number.",
+      "scene": "table",
+      "photo": "https://images.unsplash.com/photo-1634320498239-497d37b8f1fd?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "jfMT9qmubPU",
+      "photo_credit": "Shyam Mishra"
+    },
+    {
+      "text": "Every night at 3:12, my phone calls itself while I sleep.",
+      "scene": "house",
+      "photo": "https://images.unsplash.com/photo-1552858725-a19e7fcd3ac4?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "F2SrBdv9swk",
+      "photo_credit": "Jp Valery"
+    },
+    {
+      "text": "The voicemail is my voice, whispering, \"Don't open the wardrobe.\"",
+      "scene": "door",
+      "photo": "https://images.unsplash.com/photo-1705927450573-9d307a21f9cc?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "HpHPUFl6rFc",
+      "photo_credit": "Uran Wang"
+    },
+    {
+      "text": "The first ones sounded croaky and wrong. Each night, it sounds more like me.",
+      "scene": "hallway",
+      "photo": "https://images.unsplash.com/photo-1585332757084-e9622d190a51?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "Qghpm1kFG0I",
+      "photo_credit": "Tim Durgan"
+    },
+    {
+      "text": "This morning, the wardrobe door was open a crack.",
+      "scene": "door",
+      "photo": "https://images.unsplash.com/photo-1691120254965-5158046d3929?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "1-zyF_aDZ8s",
+      "photo_credit": "Yigit ARISOY"
+    },
+    {
+      "text": "Last night's message said, \"I know you're listening. I'm nearly ready.\"",
+      "scene": "note",
+      "photo": "https://images.unsplash.com/photo-1652454584078-c4be94b95c10?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "X3P5wyq8nKo",
+      "photo_credit": "Behnam Norouzi"
+    },
+    {
+      "text": "Tonight at 3:12, my phone stayed dark. My voice spoke from the wardrobe.",
+      "scene": "window",
+      "photo": "https://images.unsplash.com/photo-1640371421583-7b4f35ff5713?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "9P2I0NR21e8",
+      "photo_credit": "Ninh Nguyễn"
+    },
+    {
+      "text": "\"Hi, Mum. It's me. Can I come home?\"",
+      "scene": "dark",
+      "photo": "https://images.unsplash.com/photo-1788982036924-9c115b4c601a?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "si5tqF3dY0A",
+      "photo_credit": "Angelina"
+    }
+  ],
+  "outro": "Follow for a new story every night.",
+  "youtube": {
+    "title": "My Phone Leaves Me Voicemails in My Own Voice… #shorts #scarystories",
+    "description": "Don't listen to voicemails from your own number. Every night at 3:12, my phone calls itself while I sleep.\n\nA new original scary story every night on Whispered After Dark.\n\nPhotos: Shyam Mishra, Jp Valery, Uran Wang, Tim Durgan, Yigit ARISOY, Behnam Norouzi, Ninh Nguyễn, Angelina on Unsplash\n\n#scarystories #horror #creepy #shorts",
+    "tags": [
+      "scary stories",
+      "horror",
+      "creepy",
+      "short horror story",
+      "shorts",
+      "whispered after dark",
+      "phone horror",
+      "voicemail horror"
+    ]
+  }
+}
