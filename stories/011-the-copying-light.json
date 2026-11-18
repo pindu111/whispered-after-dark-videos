@@ -1,0 +1,78 @@
+{
+  "title": "The Copying Light",
+  "title_scene": "window",
+  "hook_type": "rule",
+  "cards": [
+    {
+      "text": "Never answer a light that copies yours.",
+      "scene": "window",
+      "photo": "https://images.unsplash.com/photo-1572583949319-3d1ea748e486?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "R9ICFNHjsvM",
+      "photo_credit": "Garrick Sangil"
+    },
+    {
+      "text": "I keep a lighthouse alone, and no boat comes out this far.",
+      "scene": "house",
+      "photo": "https://images.unsplash.com/photo-1522303225746-3037391fba31?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "fUlDLRuXt9U",
+      "photo_credit": "Casey Horner"
+    },
+    {
+      "text": "Last night, out in the black water, something started copying my beam.",
+      "scene": "window",
+      "photo": "https://images.unsplash.com/photo-1594289765464-d4d8b4dcf42d?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "0vOoWtDiKXY",
+      "photo_credit": "Clément M."
+    },
+    {
+      "text": "Sweep for sweep, it matched me, and every hour it came closer.",
+      "scene": "hallway",
+      "photo": "https://images.unsplash.com/photo-1694449045464-c51369aee068?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "a5btJCloATo",
+      "photo_credit": "Haran Amorim"
+    },
+    {
+      "text": "By 3am, it was just off the rocks, and there was no boat under it.",
+      "scene": "forest",
+      "photo": "https://images.unsplash.com/photo-1754922012182-429b9ec37083?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "5Ty3mVwX0Os",
+      "photo_credit": "Thomas Marquize"
+    },
+    {
+      "text": "I panicked and flashed back three times, like a warning.",
+      "scene": "window",
+      "photo": "https://images.unsplash.com/photo-1537249011554-eb008faf38c2?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "_4XcZQ-2G5Q",
+      "photo_credit": "Casey Horner"
+    },
+    {
+      "text": "Out on the water, its light went dark.",
+      "scene": "dark",
+      "photo": "https://images.unsplash.com/photo-1613830226160-bac0f2470885?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "42_l9l5Pxwk",
+      "photo_credit": "Polina Silivanova"
+    },
+    {
+      "text": "Three slow knocks came from the tower door.",
+      "scene": "door",
+      "photo": "https://images.unsplash.com/photo-1542071519-28ef898f785d?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "hlbA8ZR1ftU",
+      "photo_credit": "Edan Cohen"
+    }
+  ],
+  "outro": "Follow for a new story every night.",
+  "youtube": {
+    "title": "A Light at Sea Keeps Copying My Lighthouse… #shorts #scarystories",
+    "description": "Never answer a light that copies yours. I keep a lighthouse alone, and no boat comes out this far.\n\nA new original scary story every night on Whispered After Dark.\n\nPhotos: Garrick Sangil, Casey Horner, Clément M., Haran Amorim, Thomas Marquize, Polina Silivanova, Edan Cohen on Unsplash\n\n#scarystories #horror #creepy #shorts",
+    "tags": [
+      "scary stories",
+      "horror",
+      "creepy",
+      "short horror story",
+      "shorts",
+      "whispered after dark",
+      "lighthouse horror",
+      "ocean horror"
+    ]
+  }
+}
