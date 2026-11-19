@@ -1,0 +1,19 @@
+{
+  "title": "Already Checked In",
+  "hook_type": "impossible",
+  "cards": [
+    {"text": "Every motel says I've already checked in.", "scene": "door", "photo": "https://images.unsplash.com/photo-1782500697504-cc96e8f21688?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "nHiO5Z_FSXY", "photo_credit": "Miguel luiz Tinoco"},
+    {"text": "I'm driving home alone across the country, picking every stop at random.", "scene": "forest", "photo": "https://images.unsplash.com/photo-1762580171794-370acfd39f06?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "6cMtStQT3xI", "photo_credit": "Igor Kuvi"},
+    {"text": "Tonight's clerk slid me a key and smiled. \"Back so soon?\"", "scene": "table", "photo": "https://images.unsplash.com/photo-1787168295572-5705a08cd5a6?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "F8bvOeKFISo", "photo_credit": "iridial"},
+    {"text": "In room six, the bed was still warm, and the shower was dripping.", "scene": "house", "photo": "https://images.unsplash.com/photo-1721316735164-adbf4f96a65c?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "Dve3fopwy_w", "photo_credit": "El S"},
+    {"text": "I drove two more hours, to a town that wasn't on my map.", "scene": "forest", "photo": "https://images.unsplash.com/photo-1786102469910-a817c840eab8?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "bOasHPFQStI", "photo_credit": "Ivan Baton"},
+    {"text": "That clerk didn't even look up. \"Your friend's already in your room.\"", "scene": "door", "photo": "https://images.unsplash.com/photo-1550494299-b85ce6aad3ff?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "4Fad2JEccZE", "photo_credit": "Pang P"},
+    {"text": "Outside room six sat my own suitcase. I was still holding mine.", "scene": "dark", "photo": "https://images.unsplash.com/photo-1687715997916-4030568eda97?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "OTdOrGltXRY", "photo_credit": "Madan Nm"},
+    {"text": "Then Mum texted, \"So glad you're finally home.\"", "scene": "note", "photo": "https://images.unsplash.com/photo-1576176243977-7c62b6472a31?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "imjS0T-7PTs", "photo_credit": "Victor Larracuente"}
+  ],
+  "youtube": {
+    "title": "Every Motel Says I've Already Checked In… #shorts #scarystories",
+    "description": "Every motel says I've already checked in. I'm driving home alone across the country, picking every stop at random.\n\nA new original scary story every night on Whispered After Dark.\n\nPhotos: Miguel luiz Tinoco, Igor Kuvi, iridial, El S, Ivan Baton, Pang P, Madan Nm, Victor Larracuente on Unsplash\n\n#scarystories #horror #creepy #shorts",
+    "tags": ["scary stories", "horror", "creepy", "short horror story", "shorts", "whispered after dark", "motel horror", "road trip horror"]
+  }
+}
