@@ -1,0 +1,20 @@
+{
+  "title": "Found by the River",
+  "hook_type": "question",
+  "cards": [
+    {"text": "Have you ever lost something you're still holding?", "scene": "table", "photo": "https://images.unsplash.com/photo-1609770231080-e321deccc34c?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "0juktkOTkpU", "photo_credit": "Amol Tyagi"},
+    {"text": "I work the night lost-property desk, and a soaked stranger handed in my keys.", "scene": "hallway", "photo": "https://images.unsplash.com/photo-1685107306307-147226ea476f?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "EQvLPcsy1QE", "photo_credit": "Maxim"},
+    {"text": "Mine were still in my pocket, dry, on the same frayed red ribbon.", "scene": "table", "photo": "https://images.unsplash.com/photo-1576411666423-53e284986604?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "jtBmB4dB_jU", "photo_credit": "Wassim Chouak"},
+    {"text": "Next morning, they slipped through a grate on the river bridge.", "scene": "forest", "photo": "https://images.unsplash.com/photo-1718745526825-55ee4c9c374e?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "NWyAvTB3xzY", "photo_credit": "Danil Зakhvatkin"},
+    {"text": "Now he comes every night with something of mine, the day before I lose it.", "scene": "window", "photo": "https://images.unsplash.com/photo-1716635647748-1656df8b38ad?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "s2hlxNeHG3Q", "photo_credit": "Muhammad Hassan Javed"},
+    {"text": "My glasses. My phone, still ringing. Last night, the coat I'm wearing.", "scene": "house", "photo": "https://images.unsplash.com/photo-1793964920354-64dd5de77639?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "e0lY36md1eU", "photo_credit": "Yanhao Fang"},
+    {"text": "Tonight he just stood at my desk, river water pooling around his shoes.", "scene": "door", "photo": "https://images.unsplash.com/photo-1711282246513-565fd764e4f0?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "p-fMZGCRtIU", "photo_credit": "Aleksandra Kovacic"},
+    {"text": "Then he slid my staff badge across the desk.", "scene": "table", "photo": "https://images.unsplash.com/photo-1702726001096-096efcf640b8?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "6ra5dR3EbXw", "photo_credit": "Dastan Eraliev"},
+    {"text": "\"Found her under the bridge.\"", "scene": "dark", "photo": "https://images.unsplash.com/photo-1669751195145-9006409bc727?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb", "photo_id": "rxCk3_0T3z4", "photo_credit": "Jonas Schöne"}
+  ],
+  "youtube": {
+    "title": "A Stranger Keeps Returning Things I Haven't Lost Yet… #shorts #scarystories",
+    "description": "Have you ever lost something you're still holding? I work the night lost-property desk, and a soaked stranger handed in my keys.\n\nA new original scary story every night on Whispered After Dark.\n\nPhotos: Amol Tyagi, Maxim, Wassim Chouak, Danil Зakhvatkin, Muhammad Hassan Javed, Yanhao Fang, Aleksandra Kovacic, Dastan Eraliev, Jonas Schöne on Unsplash\n\n#scarystories #horror #creepy #shorts",
+    "tags": ["scary stories", "horror", "creepy", "short horror story", "shorts", "whispered after dark", "night shift horror", "lost and found"]
+  }
+}
