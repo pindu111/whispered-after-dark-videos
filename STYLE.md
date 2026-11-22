@@ -11,8 +11,8 @@ Channel: **Whispered After Dark** — short, original horror stories told in the
 
 ## Structure (7–9 cards, 25–35 seconds of narration)
 1. **Card 1, the hook (≤ 8 words, readable in one second).** It's the first thing seen and heard; there is no title card. It must be concrete and *already wrong*, and raise a question the viewer needs answered. Never open with setup, dates, names or "so...". Bad: "Wet footprints walk out of the sea and stop at my door." (11 words, too slow). Good: "Footprints come out of the sea. Mine."
-   **Rotate the hook type** so we learn which keeps viewers. Use the type that has been used least recently (check `hook_type` in earlier stories) and record it as `"hook_type"` in the story file:
-   - `warning`: talks to the viewer. "Don't answer if your phone rings at 3:14."
+   **Hook type.** Data so far (Nov 2026): `warning` hooks kept ~51% of viewers vs ~26% for `question` and `confession`. So: **use `warning` every other day** (whenever the previous story's `hook_type` was not `warning`). On the days in between, use whichever other type has been used least recently, so we keep learning. Record it as `"hook_type"` in the story file. Types:
+   - `warning`: talks to the viewer, a direct "Don't…" / "Never…" about an everyday thing the viewer also does. "Don't answer if your phone rings at 3:14." "Don't open the door when your dog scratches." Best performer so far.
    - `rule`: a creepy rule. "Never let the night nurse see you awake."
    - `confession`: something the narrator did. "I locked my sister out. She's still knocking."
    - `impossible`: a plain impossible fact. "My reflection blinked first."
