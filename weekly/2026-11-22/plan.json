@@ -1,0 +1,14 @@
+{
+  "title": "Never Watch These in an Empty Room | 8 Original Horror Stories",
+  "teaser": "A building with a flat that shouldn't exist, a last train that keeps losing passengers, and a wedding photographer who finds the same stranger in every empty room they've ever shot.",
+  "stories": [
+    "stories/008-flat-nine.json",
+    "stories/009-the-last-train.json",
+    "stories/010-the-practice-calls.json",
+    "stories/011-the-copying-light.json",
+    "stories/012-already-checked-in.json",
+    "stories/013-see-me.json",
+    "stories/014-found-by-the-river.json"
+  ],
+  "exclusive": "weekly/2026-11-22/exclusive.json"
+}
