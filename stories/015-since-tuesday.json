@@ -1,0 +1,83 @@
+{
+  "title": "Since Tuesday",
+  "hook_type": "warning",
+  "cards": [
+    {
+      "text": "Don't open the door when your dog scratches.",
+      "scene": "door",
+      "photo": "https://images.unsplash.com/photo-1614670151727-d2829b6551e7?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "_iwlyEBW4lg",
+      "photo_credit": "Zane Winter"
+    },
+    {
+      "text": "Mine was asleep on my bed when the scratching started at the back door.",
+      "scene": "house",
+      "photo": "https://images.unsplash.com/photo-1609784914557-b995342c4edb?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "9GgsZdW92m8",
+      "photo_credit": "Celyn Bowen"
+    },
+    {
+      "text": "Then came her whine, the exact one she makes when she's shut outside.",
+      "scene": "hallway",
+      "photo": "https://images.unsplash.com/photo-1695758987304-694fdcb654fa?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "mCBOcFHQhbc",
+      "photo_credit": "Samarth Kulkarni"
+    },
+    {
+      "text": "On the bed, she didn't even lift her head.",
+      "scene": "house",
+      "photo": "https://images.unsplash.com/photo-1708798358558-87bb71f31246?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "M0ueUMAU9pc",
+      "photo_credit": "Louis-Philippe Poitras"
+    },
+    {
+      "text": "She hasn't made a sound since she came home from the woods on Tuesday.",
+      "scene": "forest",
+      "photo": "https://images.unsplash.com/photo-1641667838410-b257ca266e38?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "reoc0yCf67c",
+      "photo_credit": "Marvin Zettl"
+    },
+    {
+      "text": "The scratching moved to my window, frantic, and the glass fogged with breath.",
+      "scene": "window",
+      "photo": "https://images.unsplash.com/photo-1729503019194-f3b46167904a?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "5fqRQdkpNaw",
+      "photo_credit": "Studio Pizza"
+    },
+    {
+      "text": "I pulled back the curtain. My dog was outside, shivering, her collar gone.",
+      "scene": "forest",
+      "photo": "https://images.unsplash.com/photo-1789451589093-9830dfb23cf4?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "DkdK7tXLZJo",
+      "photo_credit": "Filip Mavrodiev"
+    },
+    {
+      "text": "Behind me, I heard the soft jingle of her tag.",
+      "scene": "house",
+      "photo": "https://images.unsplash.com/photo-1732115970816-9c3f2aa14f74?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "xRjXFJmWlbA",
+      "photo_credit": "Thomas Heath"
+    },
+    {
+      "text": "It's been wearing her collar since Tuesday.",
+      "scene": "dark",
+      "photo": "https://images.unsplash.com/photo-1638812279533-646f25ce9474?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "-KEdIYpaHhY",
+      "photo_credit": "Sanne Hartogh"
+    }
+  ],
+  "youtube": {
+    "title": "Something Whines Like My Dog Outside My Door… #shorts #scarystories",
+    "description": "Don't open the door when your dog scratches. Mine was asleep on my bed when the scratching started at the back door.\n\nA new original scary story every night on Whispered After Dark.\n\nPhotos: Zane Winter, Celyn Bowen, Samarth Kulkarni, Louis-Philippe Poitras, Marvin Zettl, Studio Pizza, Filip Mavrodiev, Thomas Heath, Sanne Hartogh on Unsplash\n\n#scarystories #horror #creepy #shorts",
+    "tags": [
+      "scary stories",
+      "horror",
+      "creepy",
+      "short horror story",
+      "shorts",
+      "whispered after dark",
+      "dog horror story",
+      "home alone horror"
+    ]
+  }
+}
