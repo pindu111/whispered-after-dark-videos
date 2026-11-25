@@ -1,0 +1,83 @@
+{
+  "title": "The Cellar Voice",
+  "hook_type": "rule",
+  "cards": [
+    {
+      "text": "Never answer Gran's voice from the cellar.",
+      "scene": "door",
+      "photo": "https://images.unsplash.com/photo-1790648378892-8461fe5522f7?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "4CRtABG81cw",
+      "photo_credit": "Phil Desforges"
+    },
+    {
+      "text": "As a kid, I heard it call, \"Pip, love, I've fallen,\" with Gran right beside me.",
+      "scene": "house",
+      "photo": "https://images.unsplash.com/photo-1773897693681-4276735c0725?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "bSqJX7hUy3c",
+      "photo_credit": "Brendan Ng"
+    },
+    {
+      "text": "She never looked up from her knitting. \"Don't you ever answer it.\"",
+      "scene": "table",
+      "photo": "https://images.unsplash.com/photo-1651342703853-2594571bb96a?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "UbDG4bECvaM",
+      "photo_credit": "Oksana Maselko"
+    },
+    {
+      "text": "Every summer at her house, it called at ten, sobbing her pet names for me.",
+      "scene": "hallway",
+      "photo": "https://images.unsplash.com/photo-1605707471580-101f496794fc?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "T0FXa1jSrSk",
+      "photo_credit": "Egor Litvinov"
+    },
+    {
+      "text": "Last week, Gran died, and left me the house.",
+      "scene": "window",
+      "photo": "https://images.unsplash.com/photo-1771099111477-5597c654eb1b?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "9gecaVuyoro",
+      "photo_credit": "Hodder"
+    },
+    {
+      "text": "Tonight, my first night here alone, the floorboards creaked at ten.",
+      "scene": "house",
+      "photo": "https://images.unsplash.com/photo-1615003637403-a97c953272f7?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "n9cuJ6N8etE",
+      "photo_credit": "Tim Mossholder"
+    },
+    {
+      "text": "Then two voices called up from the cellar, talking over each other.",
+      "scene": "door",
+      "photo": "https://images.unsplash.com/photo-1780667035479-3c935bbc23a4?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "2BYW3dDmMZY",
+      "photo_credit": "5010"
+    },
+    {
+      "text": "One said, \"Answer me, Pip.\" One said, \"Don't you ever answer it.\"",
+      "scene": "hallway",
+      "photo": "https://images.unsplash.com/photo-1632192723887-8c17ac5050ce?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "ixhx1gU5m_8",
+      "photo_credit": "Sidney Pitzl"
+    },
+    {
+      "text": "Both of them were Gran.",
+      "scene": "dark",
+      "photo": "https://images.unsplash.com/photo-1650376035187-3ea921845504?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "KSj08ObOSQY",
+      "photo_credit": "Tanel A. Lind"
+    }
+  ],
+  "youtube": {
+    "title": "Gran Warned Me About the Voice in Her Cellar… #shorts #scarystories",
+    "description": "Never answer Gran's voice from the cellar. As a kid, I heard it call, \"Pip, love, I've fallen,\" with Gran right beside me.\n\nA new original scary story every night on Whispered After Dark.\n\nPhotos: Phil Desforges, Brendan Ng, Oksana Maselko, Egor Litvinov, Hodder, Tim Mossholder, 5010, Sidney Pitzl, Tanel A. Lind on Unsplash\n\n#scarystories #horror #creepy #shorts",
+    "tags": [
+      "scary stories",
+      "horror",
+      "creepy",
+      "short horror story",
+      "shorts",
+      "whispered after dark",
+      "grandma horror",
+      "cellar"
+    ]
+  }
+}
