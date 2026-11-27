@@ -1,0 +1,83 @@
+{
+  "title": "The Open Call",
+  "hook_type": "warning",
+  "cards": [
+    {
+      "text": "Don't hang up first on a video call.",
+      "scene": "table",
+      "photo": "https://images.unsplash.com/photo-1726146469671-07210b70c157?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "rf3Hy_gxXx0",
+      "photo_credit": "NHN"
+    },
+    {
+      "text": "I hung up on my wife from the mine camp, but her video stayed open.",
+      "scene": "window",
+      "photo": "https://images.unsplash.com/photo-1531870095880-cac1a675e830?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "qdexC1ISxmw",
+      "photo_credit": "Beer Drinker"
+    },
+    {
+      "text": "She just sat there in our bedroom, smiling at the camera, not blinking.",
+      "scene": "house",
+      "photo": "https://images.unsplash.com/photo-1662919247374-531b4fa13e63?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "t958JBIQdAM",
+      "photo_credit": "brbrihan__"
+    },
+    {
+      "text": "Then, behind her, the bedroom door opened, and my wife walked in.",
+      "scene": "door",
+      "photo": "https://images.unsplash.com/photo-1656914871811-148cfdbb6ef4?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "j2SKo92xQWc",
+      "photo_credit": "Dorian Stoici"
+    },
+    {
+      "text": "She climbed into bed behind the smiling one, who never turned around.",
+      "scene": "hallway",
+      "photo": "https://images.unsplash.com/photo-1591077394217-e4e1b63b2046?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "yYp3gVE13G4",
+      "photo_credit": "Zane Lee"
+    },
+    {
+      "text": "It leaned close to the screen and whispered, \"She can't hear you.\"",
+      "scene": "window",
+      "photo": "https://images.unsplash.com/photo-1648309276440-ffe2885b338d?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "sQSzWV0o4no",
+      "photo_credit": "Daniel Leżuch"
+    },
+    {
+      "text": "I ran out to my truck and sat there, shaking, until dawn.",
+      "scene": "forest",
+      "photo": "https://images.unsplash.com/photo-1772817337464-3fd35858a089?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "l-FebBrOdaA",
+      "photo_credit": "Landon Liedtke"
+    },
+    {
+      "text": "At sunrise, my wife texted, \"Why did you leave your camera on all night?\"",
+      "scene": "note",
+      "photo": "https://images.unsplash.com/photo-1567136724610-e582484cfa69?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "K7ZUwdcGfeE",
+      "photo_credit": "mehdi lamaaffar"
+    },
+    {
+      "text": "\"You just sat there smiling. Not blinking.\"",
+      "scene": "dark",
+      "photo": "https://images.unsplash.com/photo-1707581785966-650d2482fa63?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "photo_id": "VWO6lLCjeyk",
+      "photo_credit": "Karmishth Tandel"
+    }
+  ],
+  "youtube": {
+    "title": "I Hung Up, But My Wife's Video Stayed On… #shorts #scarystories",
+    "description": "Don't hang up first on a video call. I hung up on my wife from the mine camp, but her video stayed open.\n\nA new original scary story every night on Whispered After Dark.\n\nPhotos: NHN, Beer Drinker, brbrihan__, Dorian Stoici, Zane Lee, Daniel Leżuch, Landon Liedtke, mehdi lamaaffar, Karmishth Tandel on Unsplash\n\n#scarystories #horror #creepy #shorts",
+    "tags": [
+      "scary stories",
+      "horror",
+      "creepy",
+      "short horror story",
+      "shorts",
+      "whispered after dark",
+      "video call horror",
+      "night shift horror"
+    ]
+  }
+}
